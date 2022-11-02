@@ -10,7 +10,7 @@ namespace GithubHooks.Dotnet_48_Console
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Applicazione .NET Framework 4.8 avviata con successo.");
+            Console.WriteLine($".NET Framework \n- Commit Hash: {args[0]} \n - Author: {args[1]} \n - Message: {args[2]}");
         }
     }
 }
